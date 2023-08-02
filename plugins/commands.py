@@ -23,12 +23,12 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Oᴜʀ Mᴀɪɴ Gʀᴏᴜᴘ Jᴏɪɴ ⤬', url=f'https://t.me//MOVIES_PROVIDE')
+                    InlineKeyboardButton('⤬ Oᴜʀ Mᴀɪɴ Gʀᴏᴜᴘ Jᴏɪɴ ⤬', url=f'https://t.me/+u9dSPxCw_LRlODc1')
                 ],[
-                    InlineKeyboardButton('👻 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/MOVIES_PROVIDE"),
-                    InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url="https://t.me/MOVIES_PROVIDE2")
+                    InlineKeyboardButton('👻 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/ajbackupp"),
+                    InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url="https://t.me/+u9dSPxCw_LRlODc1")
                 ],[
-                    InlineKeyboardButton('🔻 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔻', url="https://t.me/MOVIES_PROVIDE2")
+                    InlineKeyboardButton('🔻 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔻', url="https://t.me/AjCinemasOfcl")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -43,15 +43,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('⤬ Jᴏɪɴ Oᴜʀ Mᴀɪɴ Gʀᴏᴜᴘ ⤬', url=f'https://t.me//MOVIES_PROVIDE')
+                    InlineKeyboardButton('⤬ Jᴏɪɴ Oᴜʀ Mᴀɪɴ Gʀᴏᴜᴘ ⤬', url=f'https://t.me/+u9dSPxCw_LRlODc1')
                 ],[
-                    InlineKeyboardButton('🍂ᴜᴘᴅᴀᴛᴇ 🍂', url="https://t.me//MOVIES_PROVIDE"),
-                    InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url="https://t.me//MOVIES_PROVIDE2")
+                    InlineKeyboardButton('🍂ᴜᴘᴅᴀᴛᴇ 🍂', url="https://t.me//AjCinemasOfcl"),
+                    InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url="https://t.me//ajbackupp")
                 ],[
                     InlineKeyboardButton('👻 ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🚩 Jᴀɪ Sʀɪ Rᴀᴍ 🚩', url="https://www.instagram.com/reel/CumTt3hs1bG/?igshid=MzRlODBiNWFlZA==")
+                    InlineKeyboardButton('Made By Aditya', url="https://t.me//AjCinemasOfcl")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -91,15 +91,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Jᴏɪɴ Oᴜʀ Mᴀɪɴ Gʀᴏᴜᴘ ⤬', url=f'https://t.me//MOVIES_PROVIDE')
+                    InlineKeyboardButton('⤬ Jᴏɪɴ Oᴜʀ Mᴀɪɴ Gʀᴏᴜᴘ ⤬', url=f'https://t.me/+u9dSPxCw_LRlODc1')
                 ],[
-                    InlineKeyboardButton('🍂ᴜᴘᴅᴀᴛᴇ 🍂', url="https://t.me//MOVIES_PROVIDE"),
-                    InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url="https://t.me//MOVIES_PROVIDE2")
+                    InlineKeyboardButton('🍂ᴜᴘᴅᴀᴛᴇ 🍂', url="https://t.me//AjCinemasOfcl"),
+                    InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url="https://t.me//ajbackupp")
                 ],[
                     InlineKeyboardButton('👻 ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🚩 Jᴀɪ Sʀɪ Rᴀᴍ 🚩', url="https://www.instagram.com/reel/CumTt3hs1bG/?igshid=MzRlODBiNWFlZA==")
+                    InlineKeyboardButton('Made By Aditya', url="https://t.me//AjCinemasOfcl")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -150,10 +150,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/MOVIES_PROVIDE2'),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/MOVIES_PROVIDE")
+                          InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/+u9dSPxCw_LRlODc1'),
+                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/ajbackupp")
                        ],[
-                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/MOVIES_PROVIDE2")
+                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/+u9dSPxCw_LRlODc1")
                          ]
                         ]
                     )
@@ -169,10 +169,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/MOVIES_PROVIDE2'),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/MOVIES_PROVIDE")
+                          InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/+u9dSPxCw_LRlODc1'),
+                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/ajbackupp")
                        ],[
-                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/MOVIES_PROVIDE2")
+                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/+u9dSPxCw_LRlODc1")
                          ]
                         ]
                     )
@@ -333,10 +333,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/MOVIES_PROVIDE2'),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/MOVIES_PROVIDE")
+                      InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/+u9dSPxCw_LRlODc1'),
+                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/ajbackupp")
                        ],[
-                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/MOVIES_PROVIDE2")
+                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/+u9dSPxCw_LRlODc1")
                      ]
                     ]
                 )
@@ -391,10 +391,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/MOVIES_PROVIDE2'),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/MOVIES_PROVIDE")
+                      InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/+u9dSPxCw_LRlODc1'),
+                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/ajbackupp")
                        ],[
-                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/MOVIES_PROVIDE2")
+                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/+u9dSPxCw_LRlODc1")
                      ]
                     ]
                 )
@@ -448,10 +448,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/MOVIES_PROVIDE2'),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/MOVIES_PROVIDE")
+              InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/+u9dSPxCw_LRlODc1'),
+                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/ajbackupp")
                        ],[
-                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/MOVIES_PROVIDE2")
+                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/+u9dSPxCw_LRlODc1")
              ]
             ]
         )
