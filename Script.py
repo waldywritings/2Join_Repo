@@ -2,7 +2,7 @@ class script(object):
     START_TXT = """<b>ʜᴇʟᴏ {}
     
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
-ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ
+ɪ ᴀᴍ created by aditya
 
 ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/ajbackupp">ADITYA</a></b> 😏</b>"""
 
