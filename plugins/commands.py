@@ -51,7 +51,7 @@ async def start(client, message):
                     InlineKeyboardButton('👻 ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('Made By Aditya', url="https://t.me//AjCinemasOfcl")
+                    InlineKeyboardButton('Full Video Tutorial of This Bot', url="https://t.me/ajbackupp/40")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
