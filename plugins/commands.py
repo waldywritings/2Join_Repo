@@ -25,7 +25,7 @@ async def start(client, message):
         buttons = [[
                  InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                ],[
-                    InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles"),
+                    InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl"),
                     InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
                 ],[
                     InlineKeyboardButton('🔻Contact Admin🔻', url="https://t.me/KKAdminRobot")
@@ -47,7 +47,7 @@ async def start(client, message):
         buttons = [[
                    InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                ],[
-                    InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles"),
+                    InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl"),
                     InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
                 ],[
                     InlineKeyboardButton('🔻Contact Admin🔻', url="https://t.me/KKAdminRobot")
@@ -92,7 +92,7 @@ async def start(client, message):
         buttons = [[
                      InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                ],[
-                    InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles"),
+                    InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl"),
                     InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
                 ],[
                     InlineKeyboardButton('🔻Contact Admin🔻', url="https://t.me/KKAdminRobot")
@@ -148,7 +148,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                         InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
+                         InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl")
                        ],[
                         InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
                          ]
@@ -166,7 +166,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                         InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
+                         InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl")
                        ],[
                           InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
                          ]
@@ -329,7 +329,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
+                      InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl")
                        ],[
                        InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
                      ]
@@ -386,7 +386,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
+                      InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl")
                        ],[
                           InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
                      ]
@@ -442,7 +442,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
+              InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl")
                        ],[
                           InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
              ]
