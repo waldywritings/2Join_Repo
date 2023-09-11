@@ -31,6 +31,9 @@ from database.gfilters_mdb import (
     get_gfilters,
     del_allg
 )
+
+file_req_channel = FILE_REQ_CHANNEL
+
 import logging
 
 logger = logging.getLogger(__name__)
