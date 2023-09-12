@@ -1,13 +1,11 @@
-class script(object):
+class script:
     START_TXT = """<b>HELLO {}
     
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ Movie Search  ʙᴏᴛ
 i Have Over 6Lakh + Movie Files But Not Theatre Prints So Dont Search Theatre Prints 😉
+</b>
 
-
-    
-    HELP_TXT = """<b>Hᴇʏ {}"""
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+HELP_TXT = """<b>Hᴇʏ {} Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>
  🤖 ᴍʏ ɴᴀᴍᴇ : {}
