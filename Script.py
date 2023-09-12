@@ -6,7 +6,7 @@ i Have Over 6Lakh + Movie Files But Not Theatre Prints So Dont Search Theatre Pr
 
 
     
-    HELP_TXT = """<b>Hᴇʏ {}
+    HELP_TXT = """<b>Hᴇʏ {}"""
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>
