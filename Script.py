@@ -4,7 +4,6 @@ class script(object):
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ Movie Search  ʙᴏᴛ
 i Have Over 6Lakh + Movie Files But Not Theatre Prints So Dont Search Theatre Prints 😉
 
-ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/CSAdmin69_bot">HARSHA</a></b> 😏</b>"""
 
     
     HELP_TXT = """<b>Hᴇʏ {}
