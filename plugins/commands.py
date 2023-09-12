@@ -28,6 +28,8 @@ async def start(client, message):
                ],[
                     InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl"),
                     InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+             ],[
+                    InlineKeyboardButton(' ❤️Instagram ❤️', url="https://instagram.com/kothimeer.katta?igshid=NTc4MTIwNjQ2YQ==")
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -49,6 +51,8 @@ async def start(client, message):
                ],[
                     InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl"),
                     InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+            ],[
+                    InlineKeyboardButton(' ❤️Instagram ❤️', url="https://instagram.com/kothimeer.katta?igshid=NTc4MTIwNjQ2YQ==")
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,6 +97,8 @@ async def start(client, message):
                ],[
                     InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl"),
                     InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+            ],[
+                    InlineKeyboardButton(' ❤️Instagram ❤️', url="https://instagram.com/kothimeer.katta?igshid=NTc4MTIwNjQ2YQ==")
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
