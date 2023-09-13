@@ -53,7 +53,7 @@ async def start(client, message):
                     InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl"),
                     InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
             ],[
-                    InlineKeyboardButton(' ❤️Follow Our Instagram❤️', url="https://instagram.com/kothimeer.katta?igshid=NTc4MTIwNjQ2YQ==")
+                    InlineKeyboardButton(' ❤️Follow Our Instagram❤️', url="https://bit.ly/KKxInstagram")
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -120,7 +120,7 @@ async def start(client, message):
                     InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl"),
                     InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
             ],[
-                    InlineKeyboardButton(' ❤️Follow Our Instagram❤️', url="https://instagram.com/kothimeer.katta?igshid=NTc4MTIwNjQ2YQ==")
+                    InlineKeyboardButton(' ❤️Follow Our Instagram❤️', url="https://bit.ly/KKxInstagram")
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
