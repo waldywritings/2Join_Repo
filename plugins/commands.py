@@ -8,7 +8,7 @@ from pyrogram.errors import ChatAdminRequired, FloodWait
 from pyrogram.types import *
 from database.ia_filterdb import Media, get_file_details, unpack_new_file_id, get_bad_files
 from database.users_chats_db import db
-from info import CHANNELS, ADMINS, AUTH_CHANNEL, LOG_CHANNEL, PICS, BATCH_FILE_CAPTION, CUSTOM_FILE_CAPTION, PROTECT_CONTENT, CHNL_LNK, GRP_LNK, REQST_CHANNEL, SUPPORT_CHAT_ID, SUPPORT_CHAT, MAX_B_TN, VERIFY, SHORTLINK_API, SHORTLINK_URL, TUTORIAL, IS_TUTORIAL, PREMIUM_USER
+from info import CHANNELS, ADMINS, AUTH_CHANNEL, AUTH_CHANNEL1, LOG_CHANNEL, PICS, BATCH_FILE_CAPTION, CUSTOM_FILE_CAPTION, PROTECT_CONTENT, CHNL_LNK, GRP_LNK, REQST_CHANNEL, SUPPORT_CHAT_ID, SUPPORT_CHAT, MAX_B_TN, VERIFY, SHORTLINK_API, SHORTLINK_URL, TUTORIAL, IS_TUTORIAL, PREMIUM_USER
 from utils import get_settings, get_size, is_subscribed, save_group_settings, temp, verify_user, check_token, check_verification, get_token, get_shortlink, get_tutorial
 from database.connections_mdb import active_connection
 # from plugins.pm_filter import ENABLE_SHORTLINK
@@ -63,19 +63,40 @@ async def start(client, message):
         )
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
+        akas = []
+        btn = []
         try:
-            invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
-        except ChatAdminRequired:
-            logger.error("Make sure Bot is admin in Forcesub channel")
-            return
-        btn = [
-            [
-                InlineKeyboardButton(
-                    "🔻 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔻", url=invite_link.invite_link
-                )
-            ]
-        ]
-
+            user = await client.get_chat_member(AUTH_CHANNEL, message.from_user.id)
+        except UserNotParticipant:
+            akas.append(AUTH_CHANNEL)
+            pass
+        except Exception as e:
+            akas.append(AUTH_CHANNEL)
+            logger.exception(e)
+        else:
+            if user.status != 'kicked':
+                print("True")
+        try:
+            user = await client.get_chat_member(AUTH_CHANNEL1, message.from_user.id)
+        except UserNotParticipant:
+            akas.append(AUTH_CHANNEL1)
+            pass
+        except Exception as e:
+            akas.append(AUTH_CHANNEL1)
+            logger.exception(e)
+        else:
+            if user.status != 'kicked':
+                print("True")
+        for aut in akas:
+            try:
+                invite_link = await client.create_chat_invite_link(int(aut))
+                naam = await client.get_chat(int(aut))
+                naam = naam.title
+            except ChatAdminRequired:
+                logger.error("Make sure Bot is admin in Forcesub channel")
+                return
+            btn.append([InlineKeyboardButton(naam, url=invite_link.invite_link)])
+            
         if message.command[1] != "subscribe":
             try:
                 kk, file_id = message.command[1].split("_", 1)
