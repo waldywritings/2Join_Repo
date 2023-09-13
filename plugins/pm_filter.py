@@ -912,7 +912,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                              [
                              InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
                        ],[
-                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
                              ]
                             ]
                         )
@@ -1004,7 +1004,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  [
                  InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
                        ],[
-                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
                  ]
                 ]
             )
@@ -1368,7 +1368,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                ],[
                     InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles"),
-                    InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+                    InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
