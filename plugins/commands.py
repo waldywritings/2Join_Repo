@@ -28,7 +28,7 @@ async def start(client, message):
                 InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
                ],[
                     InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl"),
-                    InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+                    InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
              ],[
                     InlineKeyboardButton(' ❤️Follow Our Instagram❤️', url="https://instagram.com/kothimeer.katta?igshid=NTc4MTIwNjQ2YQ==")
                 ]]
@@ -51,7 +51,7 @@ async def start(client, message):
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
                ],[
                     InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl"),
-                    InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+                    InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
             ],[
                     InlineKeyboardButton(' ❤️Follow Our Instagram❤️', url="https://instagram.com/kothimeer.katta?igshid=NTc4MTIwNjQ2YQ==")
                 ]]
@@ -118,7 +118,7 @@ async def start(client, message):
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
                ],[
                     InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl"),
-                    InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+                    InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
             ],[
                     InlineKeyboardButton(' ❤️Follow Our Instagram❤️', url="https://instagram.com/kothimeer.katta?igshid=NTc4MTIwNjQ2YQ==")
                 ]]
@@ -173,7 +173,7 @@ async def start(client, message):
                          [
                          InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl")
                        ],[
-                        InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+                        InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
                          ]
                         ]
                     )
@@ -191,7 +191,7 @@ async def start(client, message):
                          [
                          InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl")
                        ],[
-                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
                          ]
                         ]
                     )
@@ -354,7 +354,7 @@ async def start(client, message):
                      [
                       InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl")
                        ],[
-                       InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+                       InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
                      ]
                     ]
                 )
@@ -411,7 +411,7 @@ async def start(client, message):
                      [
                       InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl")
                        ],[
-                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
                      ]
                     ]
                 )
@@ -467,7 +467,7 @@ async def start(client, message):
              [
               InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/+kCo8QBKkmAk0OWJl")
                        ],[
-                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+ia_XSKLXZkY5ZjVl")
+                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
              ]
             ]
         )
