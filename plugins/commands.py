@@ -28,7 +28,7 @@ async def start(client, message):
                ],[
                  InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
                 ],[
-                 InlineKeyboardButton(' 🍿 Updates 🍿', url="https://t.me/+rhJP2sUIPrJiNzM1"),
+                 InlineKeyboardButton(' 🍿 Cricket Updates 🍿', url="https://t.me/+rhJP2sUIPrJiNzM1"),
                  InlineKeyboardButton(' 💌 Contact 💌 ', url="https://t.me/KKContactAdminBot")
              ],[
                     InlineKeyboardButton('✅ Join Official Channel ✅', url="https://t.me/+kCo8QBKkmAk0OWJl")
@@ -52,7 +52,7 @@ async def start(client, message):
                ],[
                  InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
                 ],[
-                 InlineKeyboardButton(' 🍿 Updates 🍿', url="https://t.me/+rhJP2sUIPrJiNzM1"),
+                 InlineKeyboardButton(' 🍿 Cricket Updates 🍿', url="https://t.me/+rhJP2sUIPrJiNzM1"),
                  InlineKeyboardButton(' 💌 Contact 💌 ', url="https://t.me/KKContactAdminBot")
              ],[
                     InlineKeyboardButton('✅ Join Official Channel ✅', url="https://t.me/+kCo8QBKkmAk0OWJl")
@@ -120,7 +120,7 @@ async def start(client, message):
                ],[
                  InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
                 ],[
-                 InlineKeyboardButton(' 🍿 Updates 🍿', url="https://t.me/+rhJP2sUIPrJiNzM1"),
+                 InlineKeyboardButton(' 🍿 Cricket Updates 🍿', url="https://t.me/+rhJP2sUIPrJiNzM1"),
                  InlineKeyboardButton(' 💌 Contact 💌 ', url="https://t.me/KKContactAdminBot")
              ],[
                     InlineKeyboardButton('✅ Join Official Channel ✅', url="https://t.me/+kCo8QBKkmAk0OWJl")
