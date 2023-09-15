@@ -16,6 +16,14 @@ async def help(_, message):
 async def credits(_, message):
     await message.reply_text("ᴛʜɪs ɪs ᴄᴏᴅᴇᴅ ʙʏ KKMOVIES")
 
+@Client.on_message(filters.command("movies", CMD))
+async def movie(_, message):
+    await message.reply_text("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n𝗠𝗼𝘃𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗙𝗼𝗿𝗺𝗮𝘁\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ғʀᴏᴍ ɢᴏᴏɢʟᴇ ➠ ᴘᴀsᴛᴇ ᴄᴏᴘɪᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ɪɴ ᴛʜᴇ ʙᴏᴛ ᴏʀ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : sᴀᴍᴀᴊᴀᴠᴀʀᴀɢᴀᴍᴀɴᴀ 2023 ᴇʟᴀ ɴᴀᴍᴇ ᴀɴᴅ ʏᴇᴀʀ ᴘᴇᴛᴀɴᴅɪ\n\n🚯 ᴅᴏɴᴛ ᴛʏᴘᴇ ɪɴ ᴛʜɪs ғᴏʀᴍᴀᴛ 🤧 ➠ :(ʟᴀɴɢᴜᴀɢᴇ ᴍᴇɴᴛɪᴏɴ ᴄʜᴇʏᴀᴋᴀɴᴅɪɪ,ᴀɴᴅ ᴍᴀɪɴ ᴛʜɪɴɢ ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs ᴀʀᴇ ɴᴏᴛ ᴜᴘʟᴏᴀᴅᴇᴅ ɪɴ ᴏᴜʀ ʙᴏᴛ⚠️⚠️))"
+
+ @Client.on_message(filters.command("series", CMD))
+async def series(_, message):
+    await message.reply_text("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n𝗦𝗲𝗿𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗙𝗼𝗿𝗺𝗮𝘁\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ sᴇʀɪᴇs ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀᴅᴅ sᴇᴀsᴏɴ ɴᴜᴍʙᴇʀ ʟɪᴋᴇ s01 ʙᴇsɪᴅᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ᴄᴏᴘɪᴇᴅ sᴇʀɪᴇs ɴᴀᴍᴇ ᴡɪᴛʜ sᴇᴀsᴏɴ ɪɴ ᴛʜᴇ ʙᴏᴛ ᴏʀ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴍᴏɴᴇʏ ʜᴇɪsᴛ s01ᴇ01\n\n🙅‍♂️🙅‍♂️ᴅᴏɴᴛ ᴛʏᴘᴇ ɪɴ ᴛʜɪs ғᴏʀᴍᴀᴛ ➠ ':(ᴍᴏɴᴇʏ ʜᴇɪsᴛ sᴇᴀsᴏɴ 1,ᴇʟᴀ ᴛʏᴘᴇ ᴄʜᴇsᴛʜᴇ ʀᴀᴠᴜ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ғᴏʀᴍᴀᴛ ʟᴏ ᴘᴀᴍᴘᴀʟɪ ᴘᴀɪɴᴀ ғᴏʀᴍᴀᴛ ᴄʜᴜᴅᴀɴᴅɪ ) )"
+
 
 @Client.on_message(filters.command("download", CMD))
 async def tutorial(_, message):
