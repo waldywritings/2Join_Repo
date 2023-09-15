@@ -26,7 +26,7 @@ async def series(_, message):
 
 @Client.on_message(filters.command("download", CMD))
 async def tutorial(_, message):
-    await message.reply_text("ꜰɪʀꜱᴛ ᴊᴏɪɴ ɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ 👉 t.me/+u6G9wOGWt6Q4NTk1\n_______________________\n\nAғᴛᴇʀ Watching Tʜᴇ Vɪᴅᴇᴏ Sᴇɴᴅ Aɴʏ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Nᴀᴍᴇ Wɪᴛʜ Cᴏrrᴇᴄᴛ Sᴩᴇʟʟɪɴɢ Aɴᴅ I Wɪʟʟ Sᴇɴᴅ Tʜᴇ Fɪʟᴇ Lɪɴᴋ\n______________\n\nCᴏʀʀᴇᴄᴛ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛɪɴɢ Mᴇᴛʜᴏᴅ 👉 /movies\n__________________\n\nCᴏʀʀᴇᴄᴛ Sᴇʀɪᴇs Rᴇǫᴜᴇsᴛɪɴɢ Mᴇᴛʜᴏᴅ 👉 /series\n__________________\n\nɴᴏᴛᴇ:- ᴅᴏᴡɴʟᴏᴀᴅ ᴠʟᴄ ᴍᴇᴅɪᴀ ᴘʟᴀʏᴇʀ ꜰᴏʀ ʙᴇᴛᴛᴇʀ ᴇxᴘᴇʀɪᴇɴᴄᴇ")
+    await message.reply_text("ꜰɪʀꜱᴛ ᴊᴏɪɴ ɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ 👉 t.me/+u6G9wOGWt6Q4NTk1\n_______________________\n\n🇦‌ғᴛᴇʀ 🇯‌🇴‌🇮‌🇳‌🇮‌🇳‌🇬‌ 🇹‌ʜᴇ 🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌ 🇸‌ᴇɴᴅ 🇦‌ɴʏ 🇲‌ᴏᴠɪᴇ🇸‌ / 🇸‌ᴇʀɪᴇ🇸‌ 🇳‌ᴀᴍᴇ 🇼‌ɪᴛʜ 🇨‌ᴏ🇷‌🇷‌ᴇᴄᴛ 🇸‌ᴩᴇʟʟɪɴɢ 🇦‌ɴᴅ 🇮‌ 🇼‌ɪʟʟ 🇸‌ᴇɴᴅ 🇹‌ʜᴇ 🇫‌ɪʟᴇ\n______________\n\nCᴏʀʀᴇᴄᴛ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛɪɴɢ Mᴇᴛʜᴏᴅ 👉 /movies\n__________________\n\nCᴏʀʀᴇᴄᴛ Sᴇʀɪᴇs Rᴇǫᴜᴇsᴛɪɴɢ Mᴇᴛʜᴏᴅ 👉 /series\n__________________\n\nɴᴏᴛᴇ:- ᴅᴏᴡɴʟᴏᴀᴅ ᴠʟᴄ ᴍᴇᴅɪᴀ ᴘʟᴀʏᴇʀ ꜰᴏʀ ʙᴇᴛᴛᴇʀ ᴇxᴘᴇʀɪᴇɴᴄᴇ")
 
 @Client.on_message(filters.command("ping", CMD))
 async def ping(_, message):
