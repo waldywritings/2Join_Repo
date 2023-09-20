@@ -1,7 +1,12 @@
 class script(object):
-     START_TXT = """
-<b>👋💙 𝙷𝙴𝙻𝙻𝙾 𝙼𝙰𝚆𝙰\n\nMʏ Nᴀᴍᴇ Iꜱ 𝚆𝙰𝙻𝙳𝚈 𝚆𝚁𝙸𝚃𝙸𝙽𝙶𝚂 𝚂𝙴𝙰𝚁𝙲𝙷 𝙱𝙾𝚃,\nI Cᴀɴ Pʀᴏᴠɪᴅᴇ HD Mᴏᴠɪᴇꜱ & Oᴛᴛ Rᴇʟᴇᴀꜱᴇᴅ Mᴏᴠɪᴇꜱ Hᴇʀᴇ... Jᴜꜱᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ Oʀ Jᴜꜱᴛ Aꜱᴋ Mᴏᴠɪᴇ Hᴇʀᴇ...\n\nIꜰ Yᴏᴜ Wᴀɴᴛ Pɪʀᴀᴄʏ Mᴏᴠɪᴇꜱ, Tʜᴇɴ Aꜱᴋ Hᴇʀᴇ @Waldy_Piracy_Search_Bot...\n\nBᴏᴛ Mᴀᴅᴇ Bʏ @Waldy_Writings 💙🙇‍♂️</b>"""
+    START_TXT = """<b>HELLO {}
+    
+ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ Movie Search  ʙᴏᴛ
+i Have Over 1Lakh + Movie Files But Not Theatre Prints So Dont Search Theatre Prints 😉
 
+ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Waldy_Writings">Waldy_Writings</a></b> 😏</b>"""
+
+    
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
