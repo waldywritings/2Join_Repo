@@ -66,7 +66,7 @@ async def give_filter(client, message):
         if total_results == 0:
             return
         else:
-            return await message.reply_text(f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. \n\nTʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\nJᴏɪɴ ᴀɴᴅ Sᴇᴀʀᴄʜ Hᴇʀᴇ - @MOVIES_PROVIDE</b>")
+            return await message.reply_text(f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. \n\nTʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\nJᴏɪɴ ᴀɴᴅ Sᴇᴀʀᴄʜ Hᴇʀᴇ - @Waldy_Writings</b>")
 
 @Client.on_message(filters.private | filters.text & filters.incoming)
 async def pm_text(bot, message):
@@ -910,9 +910,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                             InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
+                             InlineKeyboardButton('Mᴀiɴ Cʜᴀɴɴᴇʟ', url="https://t.me/Waldy_Writings")
                        ],[
-                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
+                        InlineKeyboardButton('2ɴᴅ Cʜᴀɴɴᴇʟ', url="https://t.me/Waldy_Writings2")
                              ]
                             ]
                         )
@@ -1002,9 +1002,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                 InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
+                 InlineKeyboardButton('Mᴀiɴ Cʜᴀɴɴᴇʟ', url="https://t.me/Waldy_Writings")
                        ],[
-                          InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
+                        InlineKeyboardButton('2ɴᴅ Cʜᴀɴɴᴇʟ', url="https://t.me/Waldy_Writings2")
                  ]
                 ]
             )
@@ -1289,7 +1289,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
+                 InlineKeyboardButton('Main Channel', url="https://t.me/Waldy_Writings")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1314,7 +1314,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles")
+                 InlineKeyboardButton('Main Channel', url="https://t.me/Waldy_Writings")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1367,8 +1367,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                ],[
-                    InlineKeyboardButton(' 🍿 Movies Update 🍿', url="https://t.me/kothimeerkattafiles"),
-                    InlineKeyboardButton(' 🏏Cricket Updates🏏 ', url="https://t.me/+rhJP2sUIPrJiNzM1")
+                    InlineKeyboardButton('Mᴀiɴ Cʜᴀɴɴᴇʟ', url="https://t.me/Waldy_Writings"),
+                    InlineKeyboardButton('2ɴᴅ Cʜᴀɴɴᴇʟ', url="https://t.me/Waldy_Writings2")
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1446,7 +1446,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/kothimeerkattafiles'),
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/Waldy_Writings'),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
@@ -1637,7 +1637,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="t.me/KKAdminRobot")
+                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="t.me/WaldyWritings_Bot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1909,7 +1909,7 @@ async def auto_filter(client, msg, spoll=False):
     #     )
     # else:
     if settings["button"]:
-        cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n\nʀᴇsᴜʟᴛ sʜᴏᴡ ɪɴ ☞ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ ☞ : {message.chat.title} \n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️\n\n</b>"
+        cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n\nʀᴇsᴜʟᴛ sʜᴏᴡ ɪɴ ☞ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ ☞ : {message.chat.title} \n\n⚠️ ᴀꜰᴛᴇʀ 2 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️\n\n</b>"
     else:
         # cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
         cap = f"<b>Hᴇʏ {message.from_user.mention}, Fᴏᴜɴᴅ {total_results} Rᴇsᴜʟᴛs ғᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}\n\n</b>"
@@ -1967,12 +1967,12 @@ async def auto_filter(client, msg, spoll=False):
     await m.delete()
     try:
         if settings['auto_delete']:
-            await asyncio.sleep(300)
+            await asyncio.sleep(120)
             await fuk.delete()
             await message.delete()
     except KeyError:
         await save_group_settings(message.chat.id, 'auto_delete', True)
-        await asyncio.sleep(300)
+        await asyncio.sleep(120)
         await fuk.delete()
         await message.delete()
     # if spoll:
@@ -2455,7 +2455,7 @@ async def global_filters(client, message, text=False):
                                 else:
                                     try:
                                         if settings['auto_delete']:
-                                            await asyncio.sleep(600)
+                                            await asyncio.sleep(120)
                                             await joelkb.delete()
                                     except KeyError:
                                         grpid = await active_connection(str(message.from_user.id))
